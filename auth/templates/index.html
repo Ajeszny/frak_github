@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en, pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Łetnia szkoła</title>
+    <link rel="stylesheet" type="text/css" href="stylePL.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<body>
+
+<header>
+    <a href="index2.html"><img src='{% static "logo.jpg" %}' alt="logo"></a>
+    <h1>Łetnia szkoła</h1>
+    <br>
+
+    <nav>
+        <div class="button-row">
+            <a href="ProgramsPL.html"><button class="shitbitchdie">Programy</button></a>
+            <a href="PYPL.html"><button class="shitbitchdie">Poprzednie</button></a>
+            <a href="InfoPL.html"><button class="shitbitchdie">Informacja</button></a>
+            <a href="https://p.lodz.pl/"><button class="shitbitchdie">Universytet</button></a>
+            <a href="OtherPL.html"><button class="shitbitchdie">Inne</button></a>
+        </div>
+    </nav>
+
+    <div class="button">
+        <a href="index.html"><button class="shitbitchdie">PL/EN</button></a>
+    </div>
+
+    <div class="enter">
+        <a href=""><button class="shitbitchdie">Logowanie</button></a>
+    </div>
+</header>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="slideshow-container">
+
+    <div class="slide active">
+        <a href="Info.html"><img src='{% static "photo1.jpg" %}' class="p1" alt="shit"></a>
+    </div>
+    <div class="slide">
+        <a href="PY.html"><img src='{% static "photo2.jpg" %}' class="p2" alt="ur"></a>
+    </div>
+    <div class="slide">
+        <a href="Programs.html"><img src='{% static "photo3.jpg" %}' class="p3" alt="self"></a>
+    </div>
+
+</div>
+
+<script>
+    let slides = document.querySelectorAll('.slide');
+    let currentSlide = 0;
+
+    function nextSlide()
+    {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+    }
+
+    setInterval(nextSlide, 5500);
+</script>
+
+<div class="main1">
+    <div class="right-text">
+        <br>
+        <br>
+        <h1>Chcę umrzeć</h1>
+        <h3>Polska Polska Polska Polska Polska Polska Polska Polska</h3>
+        <h3>Polska Polska Polska Polska Polska Polska Polska Polska</h3>
+        <h3>Polska Polska Polska Polska Polska Polska Polska Polska</h3>
+        <h3>Polska Polska Polska Polska Polska Polska Polska Polska</h3>
+        <h3>Polska Polska Polska Polska Polska Polska Polska Polska</h3>
+        <h3>Polska Polska Polska Polska Polska Polska Polska Polska</h3>
+        <h3>Polska Polska Polska Polska Polska Polska Polska Polska</h3>
+    </div>
+
+    <div class="left-slide">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="slideshow1-container">
+            <div class="slide1 active">
+                <a href="Info.html"><img src='{% static "new1.jpg" %}' class="p11" alt="shit"></a>
+            </div>
+            <div class="slide1">
+                <a href="Info.html"><img src='{% static "new2.jpg" %}' class="p21" alt="ur"></a>
+            </div>
+            <div class="slide1">
+                <a href="Info.html"><img src='{% static "new3.jpg" %}' class="p31" alt="self"></a>
+            </div>
+        </div>
+
+        <div class="slideshow2-container">
+            <div class="slide2 active">
+                <a href="Info.html"><img src='{% static "new4.jpg" %}' class="p41" alt="shit"></a>
+            </div>
+            <div class="slide2">
+                <a href="Info.html"><img src='{% static "new5.jpg" %}' class="p51" alt="ur"></a>
+            </div>
+            <div class="slide2">
+                <a href="Info.html"><img src='{% static "new6.jpg" %}' class="p61" alt="self"></a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        let slides1 = document.querySelectorAll('.slide1');
+        let currentSlide1 = 0;
+
+        function nextSlide1()
+        {
+            slides1[currentSlide1].classList.remove('active');
+            currentSlide1 = (currentSlide1 + 1) % slides1.length;
+            slides1[currentSlide1].classList.add('active');
+        }
+
+        setInterval(nextSlide1, 5500);
+    </script>
+
+    <script>
+        let slides2 = document.querySelectorAll('.slide2');
+        let currentSlide2 = 0;
+
+        function nextSlide2()
+        {
+            slides2[currentSlide2].classList.remove('active');
+            currentSlide2 = (currentSlide2 + 1) % slides2.length;
+            slides2[currentSlide2].classList.add('active');
+        }
+
+        setInterval(nextSlide2, 5500);
+    </script>
+</div>
+
+<footer>
+    <a href="index2.html"><img src='{% static "logo.jpg" %}' alt="logo"></a>
+    <h1>Łetnia szkoła</h1>
+    <div class="right-down-text">
+
+    </div>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,366 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.button-row
+{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-down-text1
+{
+    margin-left: 150px;
+}
+
+.right-down-text2
+{
+    margin-left: 200px;
+}
+
+.shitbitchdie
+{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, black 0%, gray 51%, black 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+.shitbitchdie:hover
+{
+    background-position: right center;
+}
+
+header h1
+{
+    margin: 0;
+}
+
+header img
+{
+    height: 50px;
+    margin-right: 10px;
+}
+
+header
+{
+    width: 1500px;
+    height: 70px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.main
+{
+    margin-left: 60px;
+    width: 1400px;
+    background-color: darkkhaki;
+    height: 1900px;
+}
+
+.right
+{
+    margin-top: 100px;
+    float: right;
+    text-align: center;
+    width: 50%;
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+
+.left
+{
+    margin-top: 100px;
+    float: left;
+    width: 50%;
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+
+.enter
+{
+    margin-left: auto;
+}
+
+
+.lefttext
+{
+    margin-left: 100px;
+}
+
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+footer h1
+{
+    margin: 0;
+}
+footer img
+{
+    height: 50px;
+    margin-right: 10px;
+}
+footer
+{
+
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.kek1
+{
+    width: 500px;
+    height: 400px;
+
+    border-radius: 20px;
+}
+.kek2
+{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+.kek3
+{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.zak1
+{
+    width: 500px;
+    height: 400px;
+
+    border-radius: 20px;
+}
+.zak2
+{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+.zak3
+{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.m1
+{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+.f1
+{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+.c1
+{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+
+.logo
+{
+    border-radius: 10px;
+}
+
+.slideshow2-container
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.slide2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+.slide2.active
+{
+    opacity: 1;
+}
+.slideshow3-container
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.slide3
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+.slide3.active
+{
+    opacity: 1;
+}
+.slideshow4-container
+{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+}
+.slide4
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+.slide4.active
+{
+    opacity: 1;
+}
+.slideshow5-container
+{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+}
+.slide5
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+.slide5.active
+{
+    opacity: 1;
+}
+
+.slideshow6-container
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.slide6
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+.slide6.active
+{
+    opacity: 1;
+}
+
+.slideshow7-container
+{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+}
+.slide7
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+.slide7.active
+{
+    opacity: 1;
+}
+
+.float
+{
+    height: 200px;
+    width: 500px;
+    background-color: darksalmon;
+    margin-left: 100px;
+    border-radius: 20px;
+    animation: float 3s infinite;
+}
+
+@keyframes float
+{
+    0%
+    {
+        transform: translateY(0);
+    }
+    50%
+    {
+        transform: translateY(25px);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}
+
+.floattext
+{
+    margin-left: 10px;
+    float: left
+}
+
+

@@ -1,0 +1,115 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.button-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Programs
+{
+    background-color: white;
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+#Programs:hover
+{
+    color:white;
+    background-color: black;
+}
+
+#PY
+{
+    background-color: white;
+    margin: 0 10px;
+    padding: 10px 30px;
+}
+#PY:hover
+{
+    color:white;
+    background-color: black;
+}
+
+#Info
+{
+    background-color: white;
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+#Info:hover
+{
+    color:white;
+    background-color: black;
+}
+
+#University
+{
+    background-color: white;
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+#University:hover
+{
+    color:white;
+    background-color: black;
+}
+
+#Other
+{
+    background-color: white;
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+#Other:hover
+{
+    color:white;
+    background-color: black;
+}
+
+#Change
+{
+    background-color: white;
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+#Change:hover
+{
+    color:white;
+    background-color: black;
+}
+
+header h1
+{
+    margin: 0;
+}
+
+header img
+{
+    height: 50px;
+    margin-right: 10px;
+}
+
+header
+{
+    width: 1600px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.main
+{
+    margin-left: 60px;
+    width: 1400px;
+    background-color: antiquewhite;
+    height: 1000px;
+}

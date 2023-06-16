@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en, pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Summer school/Programs</title>
+    {%load static%}
+    <link rel="stylesheet" type="text/css" href='{% static "stylePrograms.css" %}'>
+    <link rel="stylesheet" type="text/css" href='{% static "style.css" %}'>
+</head>
+
+<header>
+  <a href='/'><img src='{% static "logo.jpg" %}' alt="logo"></a>
+  <h1>Summer school</h1>
+  <br>
+
+<nav>
+  <div class="button-row">
+    <a href='programs'><button class="shitbitchdie">Programs</button></a>
+    <a href='py'><button class="shitbitchdie">Previous</button></a>
+    <a href='info'><button class="shitbitchdie">Information</button></a>
+    <a href='https://p.lodz.pl/'><button class="shitbitchdie">University</button></a>
+    <a href='other'><button class="shitbitchdie">Other</button></a>
+  </div>
+</nav>
+
+  <div class="button">
+    <a href='jp'><button class="shitbitchdie">EN/PL</button></a>
+  </div>
+
+  <div class="enter">
+    <a href='login'><button class="shitbitchdie">Submit</button></a>
+  </div>
+</header>
+<body>
+<div class="main">
+    <div class="left1-slide">
+        <a href='{% static "https://en.wikipedia.org/wiki/Physics" %}'><img src='{% static "fiz.jpeg" %}' class="fiz" alt="die"></a>
+        <a href='{% static "https://en.wikipedia.org/wiki/Mathematics" %}'><img src='{% static "math.jpg" %}' class="mat" alt="lol"></a>
+        <a href='{% static "https://en.wikipedia.org/wiki/Chemistry" %}'><img src='{% static "chem.jpg" %}' class="chem" alt="ehe"></a>
+    </div>
+    <div class="right1-text">
+        <div class="fiztext">
+            <h2>Physics</h2>
+            <h3>If your child is interested in physics</h3>
+            <h3>and wants to improve his skills in this subject,</h3>
+            <h3>this is what he needs! Fascinating experiences,</h3>
+            <h3>interesting lessons and exciting discoveries await him!</h3>
+
+            <table class="tab">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th class="mday">8 - 10</th>
+                    <th class="mday">10 - 12 </th>
+                    <th class="mday">12 - 14 </th>
+                    <th class="mday">14 - 16</th>
+                    <th class="mday">16 - 18 </th>
+                    <th class="mday">18 - 20</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="mday">Monday</td>
+                    <td class="monday" id="b1">Breakfast</td>
+                    <td class="monday" id="ph5">Physic</td>
+                    <td class="monday" id="lu1">Lunch</td>
+                    <td class="monday" id="sp1">Sport</td>
+                    <td class="monday" id="pr0">Project</td>
+                    <td class="monday" id="di1">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Tuesday</td>
+                    <td class="tuesday" id="b2">Breakfast</td>
+                    <td class="tuesday" id="ph1">Physic</td>
+                    <td class="tuesday" id="lu2">Lunch</td>
+                    <td class="tuesday" id="ek1">Excursion</td>
+                    <td class="tuesday" id="ek2">Excursion</td>
+                    <td class="tuesday" id="di2">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Wednesday</td>
+                    <td class="wednesday" id="b3">Breakfast</td>
+                    <td class="wednesday" id="en1">English</td>
+                    <td class="wednesday" id="lu3">Lunch</td>
+                    <td class="wednesday" id="sp2">Sport</td>
+                    <td class="wednesday" id="fi1">Film</td>
+                    <td class="wednesday" id="di3">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Thursday</td>
+                    <td class="thursday" id="b4">Breakfast</td>
+                    <td class="thursday" id="ph2">Physic</td>
+                    <td class="thursday" id="lu4">Lunch</td>
+                    <td class="thursday" id="pr1">Project</td>
+                    <td class="thursday" id="ft1">Free time</td>
+                    <td class="thursday" id="di4">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Friday</td>
+                    <td class="friday" id="b5">Breakfast</td>
+                    <td class="friday" id="ph3">Physic</td>
+                    <td class="friday" id="lu5">Lunch</td>
+                    <td class="friday" id="ek3">Excursion</td>
+                    <td class="friday" id="ek4">Excursion</td>
+                    <td class="friday" id="di5">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Saturday</td>
+                    <td class="saturday" id="b6">Breakfast</td>
+                    <td class="saturday" id="en2">English</td>
+                    <td class="saturday" id="lu6">Lunch</td>
+                    <td class="saturday" id="sp3">Sport</td>
+                    <td class="saturday" id="fi2">Film</td>
+                    <td class="saturday" id="di6">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Sunday</td>
+                    <td class="sunday" id="b7">Breakfast</td>
+                    <td class="sunday" id="ph4">Physic</td>
+                    <td class="sunday" id="lu7">Lunch</td>
+                    <td class="sunday" id="pr2">Project</td>
+                    <td class="sunday" id="co1">Contest</td>
+                    <td class="sunday" id="di7">Dinner</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="mattext">
+            <h2>Math</h2>
+            <h3>Does your child like accuracy and order?</h3>
+            <h3>Open the world of numbers to him from the other side!</h3>
+            <h3>Incredible discoveries and exciting aspects</h3>
+            <h3>of mathematics await him!</h3>
+
+            <table class="tab">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th class="mday">8 - 10</th>
+                    <th class="mday">10 - 12 </th>
+                    <th class="mday">12 - 14 </th>
+                    <th class="mday">14 - 16</th>
+                    <th class="mday">16 - 18 </th>
+                    <th class="mday">18 - 20</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="mday">Monday</td>
+                    <td class="monday" id="b8">Breakfast</td>
+                    <td class="monday" id="ma1">Math</td>
+                    <td class="monday" id="lu8">Lunch</td>
+                    <td class="monday" id="ek5">Excursion</td>
+                    <td class="monday" id="ek6">Excursion</td>
+                    <td class="monday" id="di8">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Tuesday</td>
+                    <td class="tuesday" id="b9">Breakfast</td>
+                    <td class="tuesday" id="ma2">Math</td>
+                    <td class="tuesday" id="lu9">Lunch</td>
+                    <td class="tuesday" id="se1">Speech</td>
+                    <td class="tuesday" id="fi3">Film</td>
+                    <td class="tuesday" id="di9">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Wednesday</td>
+                    <td class="wednesday" id="b10">Breakfast</td>
+                    <td class="wednesday" id="en3">English</td>
+                    <td class="wednesday" id="lu10">Lunch</td>
+                    <td class="wednesday" id="sp4">Sport</td>
+                    <td class="wednesday" id="ft2">Free time</td>
+                    <td class="wednesday" id="di10">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Thursday</td>
+                    <td class="thursday" id="b11">Breakfast</td>
+                    <td class="thursday" id="ma3">Math</td>
+                    <td class="thursday" id="lu11">Lunch</td>
+                    <td class="thursday" id="ek7">Excursion</td>
+                    <td class="thursday" id="ek8">Excursion</td>
+                    <td class="thursday" id="di11">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Friday</td>
+                    <td class="friday" id="b12">Breakfast</td>
+                    <td class="friday" id="ma4">Math</td>
+                    <td class="friday" id="lu12">Lunch</td>
+                    <td class="friday" id="sp5">Sport</td>
+                    <td class="friday" id="se2">Speech</td>
+                    <td class="friday" id="di12">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Saturday</td>
+                    <td class="saturday" id="b13">Breakfast</td>
+                    <td class="saturday" id="en4">English</td>
+                    <td class="saturday" id="lu13">Lunch</td>
+                    <td class="saturday" id="sp6">Sport</td>
+                    <td class="saturday" id="fi4">Film</td>
+                    <td class="saturday" id="di13">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Sunday</td>
+                    <td class="sunday" id="b14">Breakfast</td>
+                    <td class="sunday" id="ma5">Math</td>
+                    <td class="sunday" id="lu14">Lunch</td>
+                    <td class="sunday" id="se3">Speech</td>
+                    <td class="sunday" id="co2">Contest</td>
+                    <td class="sunday" id="di14">Dinner</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="chemtext">
+            <h2>Chemistry</h2>
+            <h3>Does your child like to experiment?</h3>
+            <h3>Give him an incredible fairy tale of the world of chemistry!</h3>
+            <h3>We will teach you how to pour fame into bottles,</h3>
+            <h3>how to brew a triumph and even how to stopper death!</h3>
+
+            <table class="tab">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th class="mday">8 - 10</th>
+                    <th class="mday">10 - 12 </th>
+                    <th class="mday">12 - 14 </th>
+                    <th class="mday">14 - 16</th>
+                    <th class="mday">16 - 18 </th>
+                    <th class="mday">18 - 20</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="mday">Monday</td>
+                    <td class="monday" id="b15">Breakfast</td>
+                    <td class="monday" id="ch1">Chemistry</td>
+                    <td class="monday" id="lu15">Lunch</td>
+                    <td class="monday" id="pr3">Project</td>
+                    <td class="monday" id="ft3">Free time</td>
+                    <td class="monday" id="di15">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Tuesday</td>
+                    <td class="tuesday" id="b16">Breakfast</td>
+                    <td class="tuesday" id="ch2">Chemistry</td>
+                    <td class="tuesday" id="lu16">Lunch</td>
+                    <td class="tuesday" id="sp7">Sport</td>
+                    <td class="tuesday" id="fi6">Film</td>
+                    <td class="tuesday" id="di16">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Wednesday</td>
+                    <td class="wednesday" id="b17">Breakfast</td>
+                    <td class="wednesday" id="en5">English</td>
+                    <td class="wednesday" id="lu17">Lunch</td>
+                    <td class="wednesday" id="ek9">Excursion</td>
+                    <td class="wednesday" id="ek10">Excursion</td>
+                    <td class="wednesday" id="di17">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Thursday</td>
+                    <td class="thursday" id="b18">Breakfast</td>
+                    <td class="thursday" id="ch3">Chemistry</td>
+                    <td class="thursday" id="lu18">Lunch</td>
+                    <td class="thursday" id="pr4">Project</td>
+                    <td class="thursday" id="fi5">Film</td>
+                    <td class="thursday" id="di18">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Friday</td>
+                    <td class="friday" id="b19">Breakfast</td>
+                    <td class="friday" id="ch4">Chemistry</td>
+                    <td class="friday" id="lu19">Lunch</td>
+                    <td class="friday" id="sp8">Sport</td>
+                    <td class="friday" id="pr5">Project</td>
+                    <td class="friday" id="di19">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Saturday</td>
+                    <td class="saturday" id="b20">Breakfast</td>
+                    <td class="saturday" id="en6">English</td>
+                    <td class="saturday" id="lu20">Lunch</td>
+                    <td class="saturday" id="ek11">Excursion</td>
+                    <td class="saturday" id="ek12">Excursion</td>
+                    <td class="saturday" id="di20">Dinner</td>
+                </tr>
+                <tr>
+                    <td class="mday">Sunday</td>
+                    <td class="sunday" id="b21">Breakfast</td>
+                    <td class="sunday" id="ch5">Chemistry</td>
+                    <td class="sunday" id="lu21">Lunch</td>
+                    <td class="sunday" id="pr6">Project</td>
+                    <td class="sunday" id="co3">Contest</td>
+                    <td class="sunday" id="di21">Dinner</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <h3 class="centertext">You can pick sport <a href='{% static "Info.html" %}'>there</a></h3>
+    </div>
+</div>
+
+<script>
+    const se1 = document.getElementById("se1");
+    const seT1 = "Here the children will prepare a presentation!"
+    se1.setAttribute("title",seT1);
+
+    const se2 = document.getElementById("se2");
+    const seT2 = "Here the children will prepare a presentation!"
+    se2.setAttribute("title",seT2);
+
+    const se3 = document.getElementById("se3");
+    const seT3 = "Here the children will prepare a presentation!"
+    se3.setAttribute("title",seT3);
+
+    const ft1 = document.getElementById("ft1");
+    const ftT1 = "Here children will have free time!"
+    ft1.setAttribute("title",ftT1);
+
+    const ft2 = document.getElementById("ft2");
+    const ftT2 = "Here children will have free time!"
+    ft2.setAttribute("title",ftT2);
+
+    const ft3 = document.getElementById("ft3");
+    const ftT3 = "Here children will have free time!"
+    ft3.setAttribute("title",ftT3);
+
+    const pr0 = document.getElementById("pr0");
+    const prT0 = "Here the children will have interesting experiments!"
+    pr0.setAttribute("title",prT0);
+
+    const pr1 = document.getElementById("pr1");
+    const prT1 = "Here the children will have interesting experiments!"
+    pr1.setAttribute("title",prT1);
+
+    const pr2 = document.getElementById("pr2");
+    const prT2 = "Here the children will have interesting experiments!"
+    pr2.setAttribute("title",prT2);
+
+    const pr3 = document.getElementById("pr3");
+    const prT3 = "Here the children will have interesting experiments!"
+    pr3.setAttribute("title",prT3);
+
+    const pr4 = document.getElementById("pr4");
+    const prT4 = "Here the children will have interesting experiments!"
+    pr4.setAttribute("title",prT4);
+
+    const pr5 = document.getElementById("pr5");
+    const prT5 = "Here the children will have interesting experiments!"
+    pr5.setAttribute("title",prT5);
+
+    const pr6 = document.getElementById("pr6");
+    const prT6 = "Here the children will have interesting experiments!"
+    pr6.setAttribute("title",prT6);
+
+    const fi1 = document.getElementById("fi1");
+    const fiT1 = "There kids will watch some interesting film!"
+    fi1.setAttribute("title",fiT1);
+
+    const fi2 = document.getElementById("fi2");
+    const fiT2 = "There kids will watch some interesting film!"
+    fi2.setAttribute("title",fiT2);
+
+    const fi3 = document.getElementById("fi3");
+    const fiT3 = "There kids will watch some interesting film!"
+    fi3.setAttribute("title",fiT3);
+
+    const fi4 = document.getElementById("fi4");
+    const fiT4 = "There kids will watch some interesting film!"
+    fi4.setAttribute("title",fiT4);
+
+    const fi5 = document.getElementById("fi5");
+    const fiT5 = "There kids will watch some interesting film!"
+    fi5.setAttribute("title",fiT5);
+
+    const fi6 = document.getElementById("fi6");
+    const fiT6 = "There kids will watch some interesting film!"
+    fi6.setAttribute("title",fiT6);
+
+    const co1 = document.getElementById("co1");
+    const coT1 = "There will be mini-competitions between groups"
+    co1.setAttribute("title",coT1);
+
+    const co2 = document.getElementById("co2");
+    const coT2 = "There will be mini-competitions between groups"
+    co2.setAttribute("title",coT2);
+
+    const co3 = document.getElementById("co3");
+    const coT3 = "There will be mini-competitions between groups"
+    co3.setAttribute("title",coT3);
+
+    const ek1 = document.getElementById("ek1");
+    const ekT1 = "Here children can visit interesting events and places!"
+    ek1.setAttribute("title",ekT1);
+
+    const ek2 = document.getElementById("ek2");
+    const ekT2 = "Here children can visit interesting events and places!"
+    ek2.setAttribute("title",ekT2);
+
+    const ek3 = document.getElementById("ek3");
+    const ekT3 = "Here children can visit interesting events and places!"
+    ek3.setAttribute("title",ekT3);
+
+    const ek4 = document.getElementById("ek4");
+    const ekT4 = "Here children can visit interesting events and places!"
+    ek4.setAttribute("title",ekT4);
+
+    const ek5 = document.getElementById("ek5");
+    const ekT5 = "Here children can visit interesting events and places!"
+    ek5.setAttribute("title",ekT5);
+
+    const ek6 = document.getElementById("ek6");
+    const ekT6 = "Here children can visit interesting events and places!"
+    ek6.setAttribute("title",ekT6);
+
+    const ek7 = document.getElementById("ek7");
+    const ekT7 = "Here children can visit interesting events and places!"
+    ek7.setAttribute("title",ekT7);
+
+    const ek8 = document.getElementById("ek8");
+    const ekT8 = "Here children can visit interesting events and places!"
+    ek8.setAttribute("title",ekT8);
+
+    const ek9 = document.getElementById("ek9");
+    const ekT9 = "Here children can visit interesting events and places!"
+    ek9.setAttribute("title",ekT9);
+
+    const ek10 = document.getElementById("ek10");
+    const ekT10 = "Here children can visit interesting events and places!"
+    ek10.setAttribute("title",ekT10);
+
+    const ek11 = document.getElementById("ek11");
+    const ekT11 = "Here children can visit interesting events and places!"
+    ek11.setAttribute("title",ekT11);
+
+    const ek12 = document.getElementById("ek12");
+    const ekT12 = "Here children can visit interesting events and places!"
+    ek12.setAttribute("title",ekT12);
+
+    const sp1 = document.getElementById("sp1");
+    const spT1 = "There kids will do some sport, that they can pick from list!"
+    sp1.setAttribute("title",spT1);
+
+    const sp2 = document.getElementById("sp2");
+    const spT2 = "There kids will do some sport, that they can pick from list!"
+    sp2.setAttribute("title",spT2);
+
+    const sp3 = document.getElementById("sp3");
+    const spT3 = "There kids will do some sport, that they can pick from list!"
+    sp3.setAttribute("title",spT3);
+
+    const sp4 = document.getElementById("sp4");
+    const spT4 = "There kids will do some sport, that they can pick from list!"
+    sp4.setAttribute("title",spT4);
+
+    const sp5 = document.getElementById("sp5");
+    const spT5 = "There kids will do some sport, that they can pick from list!"
+    sp5.setAttribute("title",spT5);
+
+    const sp6 = document.getElementById("sp6");
+    const spT6 = "There kids will do some sport, that they can pick from list!"
+    sp6.setAttribute("title",spT6);
+
+    const sp7 = document.getElementById("sp7");
+    const spT7 = "There kids will do some sport, that they can pick from list!"
+    sp7.setAttribute("title",spT7);
+
+    const sp8 = document.getElementById("sp8");
+    const spT8 = "There kids will do some sport, that they can pick from list!"
+    sp8.setAttribute("title",spT8);
+
+    const en1 = document.getElementById("en1");
+    const enT1 = "There kids will study english!"
+    en1.setAttribute("title",enT1);
+
+    const en2 = document.getElementById("en2");
+    const enT2 = "There kids will study english!"
+    en2.setAttribute("title",enT2);
+
+    const en3 = document.getElementById("en3");
+    const enT3 = "There kids will study english!"
+    en3.setAttribute("title",enT3);
+
+    const en4 = document.getElementById("en4");
+    const enT4 = "There kids will study english!"
+    en4.setAttribute("title",enT4);
+
+    const en5 = document.getElementById("en5");
+    const enT5 = "There kids will study english!"
+    en5.setAttribute("title",enT5);
+
+    const en6 = document.getElementById("en6");
+    const enT6 = "There kids will study english!"
+    en6.setAttribute("title",enT6);
+
+    const ma1 = document.getElementById("ma1");
+    const maT1 = "There kids will study math!"
+    ma1.setAttribute("title",maT1);
+
+    const ma2 = document.getElementById("ma2");
+    const maT2 = "There kids will study math!"
+    ma2.setAttribute("title",maT2);
+
+    const ma3 = document.getElementById("ma3");
+    const maT3 = "There kids will study math!"
+    ma3.setAttribute("title",maT3);
+
+    const ma4 = document.getElementById("ma4");
+    const maT4 = "There kids will study math!"
+    ma4.setAttribute("title",maT4);
+
+    const ma5 = document.getElementById("ma5");
+    const maT5 = "There kids will study math!"
+    ma5.setAttribute("title",maT5);
+
+    const ch1 = document.getElementById("ch1");
+    const chT1 = "There kids will study chemistry!"
+    ch1.setAttribute("title",chT1);
+
+    const ch2 = document.getElementById("ch2");
+    const chT2 = "There kids will study chemistry!"
+    ch2.setAttribute("title",chT2);
+
+    const ch3 = document.getElementById("ch3");
+    const chT3 = "There kids will study chemistry!"
+    ch3.setAttribute("title",chT3);
+
+    const ch4 = document.getElementById("ch4");
+    const chT4 = "There kids will study chemistry!"
+    ch4.setAttribute("title",chT4);
+
+    const ch5 = document.getElementById("ch5");
+    const chT5 = "There kids will study chemistry!"
+    ch5.setAttribute("title",chT5);
+
+    const ph1 = document.getElementById("ph1");
+    const phT1 = "There kids will study physic!"
+    ph1.setAttribute("title",phT1);
+
+    const ph2 = document.getElementById("ph2");
+    const phT2 = "There kids will study physic!"
+    ph2.setAttribute("title",phT2);
+
+    const ph3 = document.getElementById("ph3");
+    const phT3 = "There kids will study physic!"
+    ph3.setAttribute("title",phT3);
+
+    const ph4 = document.getElementById("ph4");
+    const phT4 = "There kids will study physic!"
+    ph4.setAttribute("title",phT4);
+
+    const ph5 = document.getElementById("ph5");
+    const phT5 = "There kids will study physic!"
+    ph5.setAttribute("title",phT5);
+
+    const b1 = document.getElementById("b1");
+    const bT1 = "There kids will do their morning routine and eat"
+    b1.setAttribute("title",bT1);
+
+    const b2 = document.getElementById("b2");
+    const bT2 = "There kids will do their morning routine and eat"
+    b2.setAttribute("title",bT2);
+
+    const b3 = document.getElementById("b3");
+    const bT3 = "There kids will do their morning routine and eat"
+    b3.setAttribute("title",bT3);
+
+    const b4 = document.getElementById("b4");
+    const bT4 = "There kids will do their morning routine and eat"
+    b4.setAttribute("title",bT4);
+
+    const b5 = document.getElementById("b5");
+    const bT5 = "There kids will do their morning routine and eat"
+    b5.setAttribute("title",bT5);
+
+    const b6 = document.getElementById("b6");
+    const bT6 = "There kids will do their morning routine and eat"
+    b6.setAttribute("title",bT6);
+
+    const b7 = document.getElementById("b7");
+    const bT7 = "There kids will do their morning routine and eat"
+    b7.setAttribute("title",bT7);
+
+    const b8 = document.getElementById("b8");
+    const bT8 = "There kids will do their morning routine and eat"
+    b8.setAttribute("title",bT8);
+
+    const b9 = document.getElementById("b9");
+    const bT9 = "There kids will do their morning routine and eat"
+    b9.setAttribute("title",bT9);
+
+    const b10 = document.getElementById("b10");
+    const bT10 = "There kids will do their morning routine and eat"
+    b10.setAttribute("title",bT10);
+
+    const b11 = document.getElementById("b11");
+    const bT11 = "There kids will do their morning routine and eat"
+    b11.setAttribute("title",bT11);
+
+    const b12 = document.getElementById("b12");
+    const bT12 = "There kids will do their morning routine and eat"
+    b12.setAttribute("title",bT12);
+
+    const b13 = document.getElementById("b13");
+    const bT13 = "There kids will do their morning routine and eat"
+    b13.setAttribute("title",bT13);
+
+    const b14 = document.getElementById("b14");
+    const bT14 = "There kids will do their morning routine and eat"
+    b14.setAttribute("title",bT14);
+
+    const b15 = document.getElementById("b15");
+    const bT15 = "There kids will do their morning routine and eat"
+    b15.setAttribute("title",bT15);
+
+    const b16 = document.getElementById("b16");
+    const bT16 = "There kids will do their morning routine and eat"
+    b16.setAttribute("title",bT16);
+
+    const b17 = document.getElementById("b17");
+    const bT17 = "There kids will do their morning routine and eat"
+    b17.setAttribute("title",bT17);
+
+    const b18 = document.getElementById("b18");
+    const bT18 = "There kids will do their morning routine and eat"
+    b18.setAttribute("title",bT18);
+
+    const b19 = document.getElementById("b19");
+    const bT19 = "There kids will do their morning routine and eat"
+    b19.setAttribute("title",bT19);
+
+    const b20 = document.getElementById("b20");
+    const bT20 = "There kids will do their morning routine and eat"
+    b20.setAttribute("title",bT20);
+
+    const b21 = document.getElementById("b21");
+    const bT21 = "There kids will do their morning routine and eat"
+    b21.setAttribute("title",bT21);
+
+    const di1 = document.getElementById("di1");
+    const diT1 = "There kids will eat and then they have free time"
+    di1.setAttribute("title",diT1);
+
+    const di2 = document.getElementById("di2");
+    const diT2 = "There kids will eat and then they have free time"
+    di2.setAttribute("title",diT2);
+
+    const di3 = document.getElementById("di3");
+    const diT3 = "There kids will eat and then they have free time"
+    di3.setAttribute("title",diT3);
+
+    const di4 = document.getElementById("di4");
+    const diT4 = "There kids will eat and then they have free time"
+    di4.setAttribute("title",diT4);
+
+    const di5 = document.getElementById("di5");
+    const diT5 = "There kids will eat and then they have free time"
+    di5.setAttribute("title",diT5);
+
+    const di6 = document.getElementById("di6");
+    const diT6 = "There kids will eat and then they have free time"
+    di6.setAttribute("title",diT6);
+
+    const di7 = document.getElementById("di7");
+    const diT7 = "There kids will eat and then they have free time"
+    di7.setAttribute("title",diT7);
+
+    const di8 = document.getElementById("di8");
+    const diT8 = "There kids will eat and then they have free time"
+    di8.setAttribute("title",diT8);
+
+    const di9 = document.getElementById("di9");
+    const diT9 = "There kids will eat and then they have free time"
+    di9.setAttribute("title",diT9);
+
+    const di10 = document.getElementById("di10");
+    const diT10 = "There kids will eat and then they have free time"
+    di10.setAttribute("title",diT10);
+
+    const di11 = document.getElementById("di11");
+    const diT11 = "There kids will eat and then they have free time"
+    di11.setAttribute("title",diT11);
+
+    const di12 = document.getElementById("di12");
+    const diT12 = "There kids will do their morning routine and eat"
+    di12.setAttribute("title",diT12);
+
+    const di13 = document.getElementById("di13");
+    const diT13 = "There kids will do their morning routine and eat"
+    di13.setAttribute("title",diT13);
+
+    const di14 = document.getElementById("b14");
+    const diT14 = "There kids will do their morning routine and eat"
+    di14.setAttribute("title",diT14);
+
+    const di15 = document.getElementById("di15");
+    const diT15 = "There kids will do their morning routine and eat"
+    di15.setAttribute("title",diT15);
+
+    const di16 = document.getElementById("di16");
+    const diT16 = "There kids will do their morning routine and eat"
+    di16.setAttribute("title",diT16);
+
+    const di17 = document.getElementById("di17");
+    const diT17 = "There kids will do their morning routine and eat"
+    di17.setAttribute("title",diT17);
+
+    const di18 = document.getElementById("di18");
+    const diT18 = "There kids will do their morning routine and eat"
+    di18.setAttribute("title",diT18);
+
+    const di19 = document.getElementById("di19");
+    const diT19 = "There kids will do their morning routine and eat"
+    di19.setAttribute("title",diT19);
+
+    const di20 = document.getElementById("di20");
+    const diT20 = "There kids will do their morning routine and eat"
+    di20.setAttribute("title",diT20);
+
+    const di21 = document.getElementById("di21");
+    const diT21 = "There kids will do their morning routine and eat"
+    di21.setAttribute("title",diT21);
+
+    const lu1 = document.getElementById("lu1");
+    const luT1 = "There kids will be eating depending on their preferences"
+    lu1.setAttribute("title",luT1);
+
+    const lu2 = document.getElementById("lu2");
+    const luT2 = "There kids will be eating depending on their preferences"
+    lu2.setAttribute("title",luT2);
+
+    const lu3 = document.getElementById("lu3");
+    const luT3 = "There kids will be eating depending on their preferences"
+    lu3.setAttribute("title",luT3);
+
+    const lu4 = document.getElementById("lu4");
+    const luT4 = "There kids will be eating depending on their preferences"
+    lu4.setAttribute("title",luT4);
+
+    const lu5 = document.getElementById("lu5");
+    const luT5 = "There kids will be eating depending on their preferences"
+    lu5.setAttribute("title",luT5);
+
+    const lu6 = document.getElementById("lu6");
+    const luT6 = "There kids will be eating depending on their preferences"
+    lu6.setAttribute("title",luT6);
+
+    const lu7 = document.getElementById("lu7");
+    const luT7 = "There kids will be eating depending on their preferences"
+    lu7.setAttribute("title",luT7);
+
+    const lu8 = document.getElementById("lu8");
+    const luT8 = "There kids will be eating depending on their preferences"
+    lu8.setAttribute("title",luT8);
+
+    const lu9 = document.getElementById("lu9");
+    const luT9 = "There kids will be eating depending on their preferences"
+    lu9.setAttribute("title",luT9);
+
+    const lu10 = document.getElementById("lu10");
+    const luT10 = "There kids will be eating depending on their preferences"
+    lu10.setAttribute("title",luT10);
+
+    const lu11 = document.getElementById("lu11");
+    const luT11 = "There kids will be eating depending on their preferences"
+    lu11.setAttribute("title",luT11);
+
+    const lu12 = document.getElementById("lu12");
+    const luT12 = "There kids will be eating depending on their preferences"
+    lu12.setAttribute("title",luT12);
+
+    const lu13 = document.getElementById("lu13");
+    const luT13 = "There kids will be eating depending on their preferences"
+    lu13.setAttribute("title",luT13);
+
+    const lu14 = document.getElementById("lu14");
+    const luT14 = "There kids will be eating depending on their preferences"
+    lu14.setAttribute("title",luT14);
+
+    const lu15 = document.getElementById("lu15");
+    const luT15 = "There kids will be eating depending on their preferences"
+    lu15.setAttribute("title",luT15);
+
+    const lu16 = document.getElementById("lu16");
+    const luT16 = "There kids will be eating depending on their preferences"
+    lu16.setAttribute("title",luT16);
+
+    const lu17 = document.getElementById("lu17");
+    const luT17 = "There kids will be eating depending on their preferences"
+    lu17.setAttribute("title",luT17);
+
+    const lu18 = document.getElementById("lu18");
+    const luT18 = "There kids will be eating depending on their preferences"
+    lu18.setAttribute("title",luT18);
+
+    const lu19 = document.getElementById("lu19");
+    const luT19 = "There kids will be eating depending on their preferences"
+    lu19.setAttribute("title",luT19);
+
+    const lu20 = document.getElementById("lu20");
+    const luT20 = "There kids will be eating depending on their preferences"
+    lu20.setAttribute("title",luT20);
+
+    const lu21 = document.getElementById("lu21");
+    const luT21 = "There kids will be eating depending on their preferences"
+    lu21.setAttribute("title",luT21);
+</script>
+
+<footer>
+    <a href='{% static "index.html" %}'><img src='{% static "logo.jpg" %}' class="logo" alt="logo"></a>
+    <h1>Summer school</h1>
+
+    <div class="right-down-text1">
+        <h4>vdoronchenkov@gmail.com</h4>
+        <h4>245122@p.edu.lodz.pl</h4>
+    </div>
+
+    <div class="right-down-text2">
+        <h4>+48 786 348 763</h4>
+        <h4>+48 786 348 760</h4>
+    </div>
+
+</footer>
+
+</body>
+</html>

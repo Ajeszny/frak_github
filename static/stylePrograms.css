@@ -1,0 +1,222 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.button-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1
+{
+    margin: 0;
+}
+
+header img
+{
+    height: 50px;
+    margin-right: 10px;
+}
+
+header
+{
+    width: 1600px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.centertext
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main
+{
+    margin-left: 60px;
+    width: 1400px;
+    background-color: darkkhaki;
+    height: 2100px;
+}
+
+.fiz
+{
+    margin-top: 200px;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+.mat
+{
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+.chem
+{
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td
+{
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}
+
+.monday
+{
+    background-color: red;
+}
+.monday:hover
+{
+    background-color: burlywood;
+}
+
+.tuesday
+{
+    background-color: orange;
+}
+.tuesday:hover
+{
+    background-color: burlywood;
+}
+
+.wednesday
+{
+    background-color: yellow;
+}
+.wednesday:hover
+{
+    background-color: burlywood;
+}
+
+.thursday
+{
+    background-color: green;
+}
+.thursday:hover
+{
+    background-color: burlywood;
+}
+
+.friday
+{
+    background-color: cyan;
+}
+.friday:hover
+{
+    background-color: burlywood;
+}
+
+.saturday
+{
+    background-color: blue;
+}
+.saturday:hover
+{
+    background-color: burlywood;
+}
+
+.sunday
+{
+    background-color: darkviolet;
+}
+.sunday:hover
+{
+    background-color: burlywood;
+}
+
+.left1-slide
+{
+    float: left;
+    text-align: center;
+    width: 50%;
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+.right1-text
+{
+    float: right;
+    text-align: left;
+    width: 50%;
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+
+.fiztext
+{
+    height: 500px;
+    margin-top: 200px;
+}
+.mattext
+{
+    height: 500px;
+    margin-top: 105px;
+}
+.chemtext
+{
+    height: 500px;
+    margin-top: 105px;
+}
+
+.right-down-text1
+{
+    margin-left: 150px;
+}
+
+.right-down-text2
+{
+    margin-left: 200px;
+}
+
+.logo
+{
+    border-radius: 10px;
+}
+
+.mday
+{
+    background-color: black;
+    color: white;
+}
+
+.tab
+{
+    margin-top: 30px;
+}
+
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
+.sport
+{
+    margin-top: 100px;
+}

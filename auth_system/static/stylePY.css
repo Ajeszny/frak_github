@@ -1,0 +1,113 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.button-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1
+{
+    margin: 0;
+}
+
+header img
+{
+    height: 50px;
+    margin-right: 10px;
+}
+
+header
+{
+    width: 1600px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.header
+{
+    width: 1500px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.main
+{
+    margin-left: 60px;
+    width: 1400px;
+    background-color: darkkhaki;
+    height: 1000px;
+}
+
+.kid1
+{
+    margin-top: 200px;
+    width: 500px;
+    height: 250px;
+}
+.kid2
+{
+    margin-top: 100px;
+    width: 500px;
+    height: 250px;
+}
+.kid3
+{
+    margin-top: 100px;
+    width: 500px;
+    height: 250px;
+}
+
+.main2
+{
+    margin-left: 60px;
+    width: 1400px;
+    background-color: darkkhaki;
+    height: 1500px;
+}
+
+.left1-slide
+{
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+.right1-text
+{
+    margin-top: 200px;
+    float: right;
+    text-align: center;
+    width: 50%;
+}
+
+.texttt
+{
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+
